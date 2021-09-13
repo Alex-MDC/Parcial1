@@ -101,7 +101,18 @@ C) Con un console.log escribe el nombre del primer objeto, el color del segundo,
 
 
 */
+function crearPerro(nombre, color, raza){
+    /*
+    var nombre = document.createElement("nombre")
+    var color = document.createElement("color")
+    var raza = document.createElement("raza")
+    */
+    var perro = document.createElement("perro")
+    perro.nombre = nombre
+    perro.color = color
+    perro.raza = raza
 
+}
 
 
 /***
@@ -126,7 +137,11 @@ fahrenheitToCelsius(95)
  * 
  ***/
 
+ var perroA = crearPerro("samy","red","goldenRetriver")
+var perroB = crearPerro("lola","plateado","spaniel")
+ var perroC = crearPerro("lucas","azul","yorki")
 
+console.log(perroA.nombre +" "+ perroB.color+" "+perroC.raza )
 </script>
 
 </head>
